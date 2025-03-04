@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnIntents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intents and Deep Linking" />
+
+    <Button
+        android:id="@+id/btnForegroundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foreground Service" />
+
+    <Button
+        android:id="@+id/btnBackgroundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Background Service" />
+
+    <Button
+        android:id="@+id/btnContentProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Content Provider" />
+
+</LinearLayout>
